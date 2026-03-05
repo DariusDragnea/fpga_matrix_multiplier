@@ -1,0 +1,14 @@
+radix define part_4_MAC_FSM_state {
+	4'd0 "Initialize"	-color cyan,
+	4'd1 "Idle"		-color yellow,
+	4'd2 "Slot_0_State"	-color green,
+	4'd3 "Slot_1_State"	-color green,
+	4'd4 "Slot_2_State"	-color green,
+	4'd5 "Slot_3_State"	-color green,
+	4'd6 "Slot_4_State"	-color green,
+	4'd7 "Slot_5_State"	-color green,
+	4'd8 "Slot_6_State"	-color green,
+	4'd9 "Slot_7_State"	-color blue,
+	-default hex
+	-defaultcolor cyan
+}

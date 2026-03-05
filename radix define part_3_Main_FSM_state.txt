@@ -1,0 +1,11 @@
+radix define part_3_Main_FSM_state {
+	3'd0 "Idle" 	 	-color cyan,
+	3'd1 "Initialize"	-color yellow,
+	3'd2 "Calc_Vec_Sum"	-color "light green",
+	3'd3 "End_Vec_Sum_1"  	-color green,
+	3'd4 "End_Vec_Sum_2"	-color "dark green",
+	3'd5 "Stall_State"	-color "dark blue",
+	3'd6 "Done_State" 	-color purple,
+	-default hex
+	-defaultcolor cyan
+}
